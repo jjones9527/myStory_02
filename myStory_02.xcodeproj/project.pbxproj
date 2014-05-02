@@ -14,13 +14,16 @@
 		3F3B932219132B0A0004F2AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B932119132B0A0004F2AD /* main.m */; };
 		3F3B932619132B0A0004F2AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B932519132B0A0004F2AD /* AppDelegate.m */; };
 		3F3B932919132B0A0004F2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B932719132B0A0004F2AD /* Main.storyboard */; };
-		3F3B932C19132B0A0004F2AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B932B19132B0A0004F2AD /* ViewController.m */; };
 		3F3B932E19132B0A0004F2AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B932D19132B0A0004F2AD /* Images.xcassets */; };
 		3F3B933519132B0A0004F2AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3B933419132B0A0004F2AD /* XCTest.framework */; };
 		3F3B933619132B0A0004F2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3B931519132B0A0004F2AD /* Foundation.framework */; };
 		3F3B933719132B0B0004F2AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3B931919132B0A0004F2AD /* UIKit.framework */; };
 		3F3B933F19132B0B0004F2AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B933D19132B0B0004F2AD /* InfoPlist.strings */; };
 		3F3B934119132B0B0004F2AD /* myStory_02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B934019132B0B0004F2AD /* myStory_02Tests.m */; };
+		3F3B934C19132D650004F2AD /* myMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B934B19132D650004F2AD /* myMasterTableViewController.m */; };
+		3F3B934F19132D960004F2AD /* myDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B934E19132D960004F2AD /* myDetailViewController.m */; };
+		3F3B935219132DC10004F2AD /* myPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B935119132DC10004F2AD /* myPos.m */; };
+		3F3B9354191335200004F2AD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3B9353191335200004F2AD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,19 @@
 		3F3B932419132B0A0004F2AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F3B932519132B0A0004F2AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F3B932819132B0A0004F2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F3B932A19132B0A0004F2AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F3B932B19132B0A0004F2AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F3B932D19132B0A0004F2AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F3B933319132B0A0004F2AD /* myStory_02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myStory_02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3B933419132B0A0004F2AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3F3B933C19132B0B0004F2AD /* myStory_02Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myStory_02Tests-Info.plist"; sourceTree = "<group>"; };
 		3F3B933E19132B0B0004F2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F3B934019132B0B0004F2AD /* myStory_02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myStory_02Tests.m; sourceTree = "<group>"; };
+		3F3B934A19132D650004F2AD /* myMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myMasterTableViewController.h; path = ../myMasterTableViewController.h; sourceTree = "<group>"; };
+		3F3B934B19132D650004F2AD /* myMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myMasterTableViewController.m; path = ../myMasterTableViewController.m; sourceTree = "<group>"; };
+		3F3B934D19132D960004F2AD /* myDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myDetailViewController.h; path = ../myDetailViewController.h; sourceTree = "<group>"; };
+		3F3B934E19132D960004F2AD /* myDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myDetailViewController.m; path = ../myDetailViewController.m; sourceTree = "<group>"; };
+		3F3B935019132DC10004F2AD /* myPos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myPos.h; path = ../myPos.h; sourceTree = "<group>"; };
+		3F3B935119132DC10004F2AD /* myPos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myPos.m; path = ../myPos.m; sourceTree = "<group>"; };
+		3F3B9353191335200004F2AD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3B9354191335200004F2AD /* MapKit.framework in Frameworks */,
 				3F3B931819132B0A0004F2AD /* CoreGraphics.framework in Frameworks */,
 				3F3B931A19132B0A0004F2AD /* UIKit.framework in Frameworks */,
 				3F3B931619132B0A0004F2AD /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		3F3B931419132B0A0004F2AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F3B9353191335200004F2AD /* MapKit.framework */,
 				3F3B931519132B0A0004F2AD /* Foundation.framework */,
 				3F3B931719132B0A0004F2AD /* CoreGraphics.framework */,
 				3F3B931919132B0A0004F2AD /* UIKit.framework */,
@@ -114,9 +124,13 @@
 			children = (
 				3F3B932419132B0A0004F2AD /* AppDelegate.h */,
 				3F3B932519132B0A0004F2AD /* AppDelegate.m */,
+				3F3B934A19132D650004F2AD /* myMasterTableViewController.h */,
+				3F3B934B19132D650004F2AD /* myMasterTableViewController.m */,
+				3F3B934D19132D960004F2AD /* myDetailViewController.h */,
+				3F3B934E19132D960004F2AD /* myDetailViewController.m */,
+				3F3B935019132DC10004F2AD /* myPos.h */,
+				3F3B935119132DC10004F2AD /* myPos.m */,
 				3F3B932719132B0A0004F2AD /* Main.storyboard */,
-				3F3B932A19132B0A0004F2AD /* ViewController.h */,
-				3F3B932B19132B0A0004F2AD /* ViewController.m */,
 				3F3B932D19132B0A0004F2AD /* Images.xcassets */,
 				3F3B931C19132B0A0004F2AD /* Supporting Files */,
 			);
@@ -249,9 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3B932C19132B0A0004F2AD /* ViewController.m in Sources */,
+				3F3B934C19132D650004F2AD /* myMasterTableViewController.m in Sources */,
 				3F3B932619132B0A0004F2AD /* AppDelegate.m in Sources */,
 				3F3B932219132B0A0004F2AD /* main.m in Sources */,
+				3F3B935219132DC10004F2AD /* myPos.m in Sources */,
+				3F3B934F19132D960004F2AD /* myDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
